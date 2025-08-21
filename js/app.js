@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
       checkbox.id = `check-${key}`;
       checkbox.dataset.section = key;
       checkbox.className =
-        "mr-3 h-5 w-5 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500";
+        "flex-shrink-0 mr-3 h-5 w-5 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500";
       checkbox.checked = isChecked;
 
       const label = document.createElement("label");
