@@ -1,12 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
     const langToggle = document.getElementById('lang-toggle');
     let currentLang = localStorage.getItem('lang') || 'en';
+    let checkedSections = JSON.parse(localStorage.getItem('checkedSections')) || {};
 
     const contentElements = {
         // Landing Page
         'landing-title': document.getElementById('landing-title'),
         'landing-subtitle': document.getElementById('landing-subtitle'),
-        'guide-cta': document.querySelector('a[href="/guide.html"]'),
+        'guide-cta': document.querySelector('#guide-cta'),
 
         // Guide Page
         'sections-nav': document.getElementById('sections-nav'),
@@ -15,12 +16,19 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     async function loadContent() {
-        const response = await fetch('/data/content.json');
-        const content = await response.json();
-        updateText(content);
-        if (window.location.pathname.includes('guide.html')) {
-            populateSectionsNav(content);
-            handleSectionSelection(content);
+        try {
+            const response = await fetch('data/content.json');
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const content = await response.json();
+            updateText(content);
+            if (window.location.pathname.includes('guide.html')) {
+                populateSectionsNav(content);
+                handleSectionSelection(content);
+            }
+        } catch (error) {
+            console.error("Could not load content:", error);
         }
     }
 
@@ -40,20 +48,39 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         langToggle.textContent = currentLang === 'en' ? 'FR' : 'EN';
+        document.documentElement.lang = currentLang;
     }
 
     function populateSectionsNav(content) {
         const sections = content[currentLang].sections;
         const sectionsNav = contentElements['sections-nav'];
         if (!sectionsNav) return;
-        sectionsNav.innerHTML = '';
+        sectionsNav.innerHTML = ''; // Clear previous nav
+
         for (const key in sections) {
+            const isChecked = checkedSections[key] || false;
             const listItem = document.createElement('li');
+            listItem.className = 'flex items-center p-2 rounded-md hover:bg-gray-200';
+            
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.id = `check-${key}`;
+            checkbox.dataset.section = key;
+            checkbox.className = 'mr-3 h-5 w-5 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500';
+            checkbox.checked = isChecked;
+            
+            const label = document.createElement('label');
+            label.htmlFor = `check-${key}`;
+            label.className = `flex-grow cursor-pointer ${isChecked ? 'line-through text-gray-400' : 'text-gray-700'}`;
+            
             const link = document.createElement('a');
             link.href = `#${key}`;
             link.textContent = sections[key].title;
-            link.className = 'block px-4 py-2 text-gray-700 rounded-md hover:bg-gray-200';
-            listItem.appendChild(link);
+            link.className = 'block';
+
+            label.appendChild(link);
+            listItem.appendChild(checkbox);
+            listItem.appendChild(label);
             sectionsNav.appendChild(listItem);
         }
     }
@@ -63,17 +90,42 @@ document.addEventListener('DOMContentLoaded', () => {
         const contentArea = contentElements['content-area'];
         if (!sectionsNav || !contentArea) return;
 
+        // Handle clicks on links for content update
         sectionsNav.addEventListener('click', (e) => {
             if (e.target.tagName === 'A') {
                 e.preventDefault();
                 const sectionKey = e.target.hash.substring(1);
                 updateSectionContent(sectionKey, content);
+
+                // Update active styles
+                document.querySelectorAll('#sections-nav a').forEach(a => a.classList.remove('font-bold', 'text-blue-600'));
+                e.target.classList.add('font-bold', 'text-blue-600');
             }
         });
 
-        // Load default section
-        const defaultSection = Object.keys(content[currentLang].sections)[0];
+        // Handle clicks on checkboxes for state change
+        sectionsNav.addEventListener('change', (e) => {
+            if (e.target.type === 'checkbox') {
+                const sectionKey = e.target.dataset.section;
+                checkedSections[sectionKey] = e.target.checked;
+                localStorage.setItem('checkedSections', JSON.stringify(checkedSections));
+                const label = e.target.nextElementSibling;
+                if (e.target.checked) {
+                    label.classList.add('line-through', 'text-gray-400');
+                    label.classList.remove('text-gray-700');
+                } else {
+                    label.classList.remove('line-through', 'text-gray-400');
+                    label.classList.add('text-gray-700');
+                }
+            }
+        });
+
+        // Load default section or from hash
+        const hash = window.location.hash.substring(1);
+        const defaultSection = hash && content[currentLang].sections[hash] ? hash : Object.keys(content[currentLang].sections)[0];
         updateSectionContent(defaultSection, content);
+        const activeLink = document.querySelector(`#sections-nav a[href="#${defaultSection}"]`);
+        if(activeLink) activeLink.classList.add('font-bold', 'text-blue-600');
     }
 
     function updateSectionContent(sectionKey, content) {
@@ -81,10 +133,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const contentArea = contentElements['content-area'];
         if (section && contentArea) {
             contentArea.innerHTML = `
-                <h2 class="text-3xl font-bold mb-4">${section.title}</h2>
-                <p class="text-gray-700">${section.content}</p>
+                <h2 class="text-3xl font-bold mb-6 pb-2 border-b">${section.title}</h2>
+                <div class="prose max-w-none text-gray-800">${section.content}</div>
             `;
         }
+        window.location.hash = sectionKey;
     }
 
     langToggle.addEventListener('click', () => {

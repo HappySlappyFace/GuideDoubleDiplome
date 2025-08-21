@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Double Degree Guide</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body class="bg-gray-100 font-sans">
-
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body
+    class="bg-gradient-to-br from-blue-50 via-indigo-100 to-white font-sans"
+  >
     <nav class="bg-white shadow-md">
-        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
-            <div class="text-xl font-bold text-gray-800">FSEGS × Le Mans</div>
-            <div>
-                <button id="lang-toggle" class="px-4 py-2 bg-gray-800 text-white rounded-md">FR</button>
-            </div>
+      <div
+        class="container mx-auto px-6 py-3 flex justify-between items-center"
+      >
+        <div class="text-xl font-bold text-gray-800">FSEGS × Le Mans</div>
+        <div>
+          <button
+            id="lang-toggle"
+            class="px-4 py-2 bg-gray-800 text-white rounded-md"
+          >
+            FR
+          </button>
         </div>
+      </div>
     </nav>
 
-    <main class="container mx-auto px-6 py-16 text-center">
-        <h1 id="landing-title" class="text-4xl font-bold text-gray-800"></h1>
+    <main class="flex items-center justify-center h-screen">
+      <div
+        class="text-center bg-white/60 backdrop-blur-sm p-12 rounded-xl shadow-lg"
+      >
+        <h1 id="landing-title" class="text-5xl font-bold text-gray-800"></h1>
         <p id="landing-subtitle" class="text-2xl text-gray-600 mt-4"></p>
-        <a href="/guide.html" class="mt-8 inline-block bg-blue-500 text-white px-8 py-4 rounded-md text-lg font-semibold hover:bg-blue-600 transition">Explore the Guide</a>
+        <a
+          href="/guide.html"
+          id="guide-cta"
+          class="mt-10 inline-block bg-blue-600 text-white px-10 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-transform transform hover:scale-105"
+        ></a>
+      </div>
     </main>
 
     <script src="js/app.js"></script>
-</body>
+  </body>
 </html>

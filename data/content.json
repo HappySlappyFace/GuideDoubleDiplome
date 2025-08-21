@@ -9,7 +9,7 @@
     "sections": {
       "visa": {
         "title": "Visa Application",
-        "content": "You must apply for a student visa via Campus France. The process can be long, so start as soon as you receive your acceptance letter."
+        "content": "You must apply for a student visa via <a href='https://www.campusfrance.org' target='_blank' class='text-blue-500 hover:underline'>Campus France</a>. The process can be long, so start as soon as you receive your acceptance letter. <br><br> <img src='https://via.placeholder.com/400x200.png?text=Campus+France+Website' alt='Campus France Website' class='mt-4 rounded-md shadow-md mx-auto'>"
       },
       "housing": {
         "title": "Finding Housing",
@@ -39,7 +39,7 @@
     "sections": {
       "visa": {
         "title": "Demande de visa",
-        "content": "Vous devez déposer une demande de visa étudiant via Campus France. La procédure peut être longue, alors commencez dès que vous recevez votre lettre d'acceptation."
+        "content": "Vous devez déposer une demande de visa étudiant via <a href='https://www.campusfrance.org' target='_blank' class='text-blue-500 hover:underline'>Campus France</a>. La procédure peut être longue, alors commencez dès que vous recevez votre lettre d'acceptation. <br><br> <img src='https://via.placeholder.com/400x200.png?text=Site+Web+Campus+France' alt='Site Web Campus France' class='mt-4 rounded-md shadow-md mx-auto'>"
       },
       "housing": {
         "title": "Trouver un logement",

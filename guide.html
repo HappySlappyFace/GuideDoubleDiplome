@@ -18,16 +18,20 @@
         </div>
     </nav>
 
-    <div class="container mx-auto px-6 py-8 flex">
-        <aside class="w-1/4 pr-8">
-            <h2 class="text-2xl font-bold text-gray-800 mb-4">Sections</h2>
-            <ul id="sections-nav" class="space-y-2">
-                <!-- Sections will be populated by JavaScript -->
-            </ul>
-        </aside>
-        <main id="content-area" class="w-3/4 bg-white p-8 rounded-md shadow-md">
-            <!-- Content will be populated by JavaScript -->
-        </main>
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+            <aside class="lg:col-span-3 mb-8 lg:mb-0">
+                <div class="bg-white p-4 rounded-lg shadow-sm sticky top-8">
+                    <h2 class="text-xl font-bold text-gray-900 mb-4 px-2"></h2>
+                    <nav id="sections-nav" class="space-y-1">
+                        <!-- Sections will be populated by JavaScript -->
+                    </nav>
+                </div>
+            </aside>
+            <main id="content-area" class="lg:col-span-9 bg-white p-8 rounded-lg shadow-sm">
+                <!-- Content will be populated by JavaScript -->
+            </main>
+        </div>
     </div>
 
     <script src="js/app.js"></script>
