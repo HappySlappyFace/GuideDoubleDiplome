@@ -1,0 +1,62 @@
+{
+  "en": {
+    "landing": {
+      "title": "Congratulations on your success in the Double Degree!",
+      "subtitle": "FSEGS × Le Mans University"
+    },
+    "guide_cta": "Explore the Guide",
+    "sections_title": "Sections",
+    "sections": {
+      "visa": {
+        "title": "Visa Application",
+        "content": "You must apply for a student visa via Campus France. The process can be long, so start as soon as you receive your acceptance letter."
+      },
+      "housing": {
+        "title": "Finding Housing",
+        "content": "Le Mans offers CROUS residences, private rentals, and shared housing. It is recommended to look for housing options early."
+      },
+      "enrollment": {
+        "title": "University Enrollment",
+        "content": "Once in France, you will need to complete your administrative enrollment at Le Mans University. Bring all your required documents."
+      },
+      "campus": {
+        "title": "Campus Life",
+        "content": "Discover the services, libraries, and student associations at Le Mans University."
+      },
+      "contacts": {
+        "title": "Important Contacts",
+        "content": "Here is a list of important contacts for international students..."
+      }
+    }
+  },
+  "fr": {
+    "landing": {
+      "title": "Félicitations pour votre réussite au Double Diplôme !",
+      "subtitle": "FSEGS × Université du Mans"
+    },
+    "guide_cta": "Explorer le Guide",
+    "sections_title": "Rubriques",
+    "sections": {
+      "visa": {
+        "title": "Demande de visa",
+        "content": "Vous devez déposer une demande de visa étudiant via Campus France. La procédure peut être longue, alors commencez dès que vous recevez votre lettre d'acceptation."
+      },
+      "housing": {
+        "title": "Trouver un logement",
+        "content": "Le Mans propose des résidences CROUS, des locations privées et des colocations. Il est recommandé de chercher un logement à l'avance."
+      },
+      "enrollment": {
+        "title": "Inscription à l'université",
+        "content": "Une fois en France, vous devrez finaliser votre inscription administrative à l'Université du Mans. Apportez tous les documents requis."
+      },
+      "campus": {
+        "title": "Vie de campus",
+        "content": "Découvrez les services, les bibliothèques et les associations étudiantes de l'Université du Mans."
+      },
+      "contacts": {
+        "title": "Contacts importants",
+        "content": "Voici une liste de contacts importants pour les étudiants internationaux..."
+      }
+    }
+  }
+}
