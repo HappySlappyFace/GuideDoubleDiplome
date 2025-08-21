@@ -9,7 +9,31 @@
     "sections": {
       "formatting_guide": {
         "title": "Formatting Guide",
-        "content": "<h3>Headings</h3><p>You can use heading tags like <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, etc., for subtitles within a section.</p><h3>Text Formatting</h3><p>Use <code>&lt;strong&gt;</code> for <strong>bold text</strong> and <code>&lt;em&gt;</code> for <em>italic text</em>.</p><h3>Lists</h3><p>Create bulleted lists with <code>&lt;ul&gt;</code> and <code>&lt;li&gt;</code> tags:</p><ul><li>First item</li><li>Second item</li><li>Third item</li></ul><h3>Links</h3><p>Create hyperlinks using the <code>&lt;a&gt;</code> tag. Example: <a href='https://www.univ-lemans.fr/fr/index.html' target='_blank' class='text-blue-500 hover:underline'>Le Mans University</a>.<br> For horizontal lines you can use <code>&lt;hr&gt;</code>.<hr></p><h3>Images</h3><p>Embed images using the <code>&lt;img&gt;</code> tag. Make sure to provide the source URL in <code>src</code> and a description in <code>alt</code>.</p><img src='https://via.placeholder.com/400x200.png?text=Example+Image' alt='Example Image' class='mt-4 rounded-md shadow-md mx-auto'><h3>Quotes</h3><p>To emphasize a piece of text, use the <code>&lt;blockquote&gt;</code> tag:</p><blockquote class='border-l-4 border-gray-400 pl-4 italic'>This is a blockquote. It's great for highlighting important notes or quotes.</blockquote><h3>Line Breaks</h3><p>You can create a new paragraph by wrapping text in <code>&lt;p&gt;</code> tags. For a single line break, use <code>&lt;br&gt;</code>.</p>"
+        "content": [
+          "<h3>Headings</h3>",
+          "<p>You can use heading tags like <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, etc., for subtitles within a section.</p>",
+          "<h3>Text Formatting</h3>",
+          "<p>Use <code>&lt;strong&gt;</code> for <strong>bold text</strong> and <code>&lt;em&gt;</code> for <em>italic text</em>.</p>",
+          "<h3>Lists</h3>",
+          "<p>Create bulleted lists with <code>&lt;ul&gt;</code> and <code>&lt;li&gt;</code> tags:</p>",
+          "<ul>",
+          "  <li>First item</li>",
+          "  <li>Second item</li>",
+          "  <li>Third item</li>",
+          "</ul>",
+          "<h3>Links</h3>",
+          "<p>Create hyperlinks using the <code>&lt;a&gt;</code> tag. Example: <a href='https://www.univ-lemans.fr/fr/index.html' target='_blank' class='text-blue-500 hover:underline'>Le Mans University</a>.</p>",
+          "<p>For horizontal lines you can use <code>&lt;hr&gt;</code>.</p>",
+          "<hr>",
+          "<h3>Images</h3>",
+          "<p>Embed images using the <code>&lt;img&gt;</code> tag. Make sure to provide the source URL in <code>src</code> and a description in <code>alt</code>.</p>",
+          "<img src='https://placehold.co/600x400/EEE/31343C' alt='Example Image' class='mt-4 rounded-md shadow-md mx-auto'>",
+          "<h3>Quotes</h3>",
+          "<p>To emphasize a piece of text, use the <code>&lt;blockquote&gt;</code> tag:</p>",
+          "<blockquote class='border-l-4 border-gray-400 pl-4 italic'>This is a blockquote. It's great for highlighting important notes or quotes.</blockquote>",
+          "<h3>Line Breaks</h3>",
+          "<p>You can create a new paragraph by wrapping text in <code>&lt;p&gt;</code> tags. For a single line break, use <code>&lt;br&gt;</code>.</p>"
+        ]
       },
       "succeeding_dd": {
         "title": "Succeeding in Double Diplome",
@@ -79,7 +103,29 @@
     "sections": {
       "formatting_guide": {
         "title": "Guide de Formatage",
-        "content": "<h3>Titres</h3><p>Vous pouvez utiliser des balises de titre comme <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, etc., pour les sous-titres dans une section.</p><h3>Mise en forme du texte</h3><p>Utilisez <code>&lt;strong&gt;</code> pour le <strong>texte en gras</strong> et <code>&lt;em&gt;</code> pour le <em>texte en italique</em>.</p><h3>Listes</h3><p>Créez des listes à puces avec les balises <code>&lt;ul&gt;</code> et <code>&lt;li&gt;</code> :</p><ul><li>Premier élément</li><li>Deuxième élément</li><li>Troisième élément</li></ul><h3>Liens</h3><p>Créez des hyperliens avec la balise <code>&lt;a&gt;</code>. Exemple : <a href='https://www.univ-lemans.fr/fr/index.html' target='_blank' class='text-blue-500 hover:underline'>Université du Mans</a>.</p><h3>Images</h3><p>Intégrez des images avec la balise <code>&lt;img&gt;</code>. Assurez-vous de fournir l'URL source dans <code>src</code> et une description dans <code>alt</code>.</p><img src='https://via.placeholder.com/400x200.png?text=Exemple+d%27Image' alt='Exemple d&#39;Image' class='mt-4 rounded-md shadow-md mx-auto'><h3>Citations</h3><p>Pour mettre en valeur un morceau de texte, utilisez la balise <code>&lt;blockquote&gt;</code> :</p><blockquote class='border-l-4 border-gray-400 pl-4 italic'>Ceci est une citation. C'est idéal pour mettre en évidence des notes importantes ou des citations.</blockquote><h3>Sauts de ligne</h3><p>Vous pouvez créer un nouveau paragraphe en enveloppant le texte dans des balises <code>&lt;p&gt;</code>. Pour un simple saut de ligne, utilisez <code>&lt;br&gt;</code>.</p>"
+        "content": [
+          "<h3>Titres</h3>",
+          "<p>Vous pouvez utiliser des balises de titre comme <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, etc., pour les sous-titres dans une section.</p>",
+          "<h3>Mise en forme du texte</h3>",
+          "<p>Utilisez <code>&lt;strong&gt;</code> pour le <strong>texte en gras</strong> et <code>&lt;em&gt;</code> pour le <em>texte en italique</em>.</p>",
+          "<h3>Listes</h3>",
+          "<p>Créez des listes à puces avec les balises <code>&lt;ul&gt;</code> et <code>&lt;li&gt;</code> :</p>",
+          "<ul>",
+          "  <li>Premier élément</li>",
+          "  <li>Deuxième élément</li>",
+          "  <li>Troisième élément</li>",
+          "</ul>",
+          "<h3>Liens</h3>",
+          "<p>Créez des hyperliens avec la balise <code>&lt;a&gt;</code>. Exemple : <a href='https://www.univ-lemans.fr/fr/index.html' target='_blank' class='text-blue-500 hover:underline'>Université du Mans</a>.</p>",
+          "<h3>Images</h3>",
+          "<p>Intégrez des images avec la balise <code>&lt;img&gt;</code>. Assurez-vous de fournir l'URL source dans <code>src</code> et une description dans <code>alt</code>.</p>",
+          "<img src='https://via.placeholder.com/400x200.png?text=Exemple+d%27Image' alt='Exemple d&#39;Image' class='mt-4 rounded-md shadow-md mx-auto'>",
+          "<h3>Citations</h3>",
+          "<p>Pour mettre en valeur un morceau de texte, utilisez la balise <code>&lt;blockquote&gt;</code> :</p>",
+          "<blockquote class='border-l-4 border-gray-400 pl-4 italic'>Ceci est une citation. C'est idéal pour mettre en évidence des notes importantes ou des citations.</blockquote>",
+          "<h3>Sauts de ligne</h3>",
+          "<p>Vous pouvez créer un nouveau paragraphe en enveloppant le texte dans des balises <code>&lt;p&gt;</code>. Pour un simple saut de ligne, utilisez <code>&lt;br&gt;</code>.</p>"
+        ]
       },
       "succeeding_dd": {
         "title": "Réussir le Double Diplôme",

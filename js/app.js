@@ -150,10 +150,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const section = content[currentLang].sections[sectionKey];
     if (section) {
+      const finalContent = Array.isArray(section.content)
+        ? section.content.join('')
+        : section.content;
+
       contentArea.innerHTML = `
             <h2 class="text-3xl font-bold text-gray-900 mb-6">${section.title}</h2>
             <div class="prose max-w-none">
-                ${section.content}
+                ${finalContent}
             </div>
         `;
       window.location.hash = sectionKey;
