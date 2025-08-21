@@ -145,15 +145,21 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function updateSectionContent(sectionKey, content) {
-    const section = content[currentLang].sections[sectionKey];
     const contentArea = contentElements["content-area"];
-    if (section && contentArea) {
+    if (!contentArea) return;
+
+    const section = content[currentLang].sections[sectionKey];
+    if (section) {
       contentArea.innerHTML = `
-                <h2 class="text-3xl font-bold mb-6 pb-2 border-b">${section.title}</h2>
-                <div class="prose max-w-none text-gray-800">${section.content}</div>
-            `;
+            <h2 class="text-3xl font-bold text-gray-900 mb-6">${section.title}</h2>
+            <div class="prose max-w-none">
+                ${section.content}
+            </div>
+        `;
+      window.location.hash = sectionKey;
+    } else {
+      contentArea.innerHTML = "<p>Section not found.</p>";
     }
-    window.location.hash = sectionKey;
   }
 
   langToggle.addEventListener("click", () => {
