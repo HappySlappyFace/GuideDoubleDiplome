@@ -7,25 +7,61 @@
     "guide_cta": "Explore the Guide",
     "sections_title": "Sections",
     "sections": {
-      "visa": {
-        "title": "Visa Application",
-        "content": "You must apply for a student visa via <a href='https://www.campusfrance.org' target='_blank' class='text-blue-500 hover:underline'>Campus France</a>. The process can be long, so start as soon as you receive your acceptance letter. <br><br> <img src='https://via.placeholder.com/400x200.png?text=Campus+France+Website' alt='Campus France Website' class='mt-4 rounded-md shadow-md mx-auto'>"
+      "succeeding_dd": {
+        "title": "Succeeding in Double Diplome",
+        "content": "Content for this section is coming soon..."
       },
-      "housing": {
-        "title": "Finding Housing",
-        "content": "Le Mans offers CROUS residences, private rentals, and shared housing. It is recommended to look for housing options early."
+      "contacting_master_responsible": {
+        "title": "Contacting Master Responsible for admission letter",
+        "content": "Content for this section is coming soon..."
       },
-      "enrollment": {
-        "title": "University Enrollment",
-        "content": "Once in France, you will need to complete your administrative enrollment at Le Mans University. Bring all your required documents."
+      "contacting_housing": {
+        "title": "Contacting RI-BAI/Foyer/CROUS for logement letter",
+        "content": "Content for this section is coming soon..."
       },
-      "campus": {
-        "title": "Campus Life",
-        "content": "Discover the services, libraries, and student associations at Le Mans University."
+      "documents_translation": {
+        "title": "Documents to acquire and Translate",
+        "content": "Content for this section is coming soon..."
       },
-      "contacts": {
+      "campus_france": {
+        "title": "Campus France and validating",
+        "content": "Content for this section is coming soon..."
+      },
+      "tls_visa": {
+        "title": "TLS applying for VISA",
+        "content": "Content for this section is coming soon..."
+      },
+      "crous_warranty": {
+        "title": "Paying CROUS warrenty (from home)",
+        "content": "Content for this section is coming soon..."
+      },
+      "cvec_payment": {
+        "title": "Paying CVEC (from home)",
+        "content": "Content for this section is coming soon..."
+      },
+      "plane_ticket": {
+        "title": "Plane Ticket",
+        "content": "Content for this section is coming soon..."
+      },
+      "transport_france": {
+        "title": "Transport in France",
+        "content": "Content for this section is coming soon..."
+      },
+      "arriving_le_mans": {
+        "title": "Arriving in Le Mans for the first time",
+        "content": "Content for this section is coming soon..."
+      },
+      "inscription_ufr": {
+        "title": "Inscription in UFR Sciences et Techniques",
+        "content": "Content for this section is coming soon..."
+      },
+      "student_benefits": {
+        "title": "Student benefits",
+        "content": "Content for this section is coming soon..."
+      },
+      "important_contacts": {
         "title": "Important Contacts",
-        "content": "Here is a list of important contacts for international students..."
+        "content": "Content for this section is coming soon..."
       }
     }
   },
@@ -37,25 +73,61 @@
     "guide_cta": "Explorer le Guide",
     "sections_title": "Rubriques",
     "sections": {
-      "visa": {
-        "title": "Demande de visa",
-        "content": "Vous devez déposer une demande de visa étudiant via <a href='https://www.campusfrance.org' target='_blank' class='text-blue-500 hover:underline'>Campus France</a>. La procédure peut être longue, alors commencez dès que vous recevez votre lettre d'acceptation. <br><br> <img src='https://via.placeholder.com/400x200.png?text=Site+Web+Campus+France' alt='Site Web Campus France' class='mt-4 rounded-md shadow-md mx-auto'>"
+        "succeeding_dd": {
+        "title": "Réussir le Double Diplôme",
+        "content": "Le contenu de cette section sera bientôt disponible..."
       },
-      "housing": {
-        "title": "Trouver un logement",
-        "content": "Le Mans propose des résidences CROUS, des locations privées et des colocations. Il est recommandé de chercher un logement à l'avance."
+      "contacting_master_responsible": {
+        "title": "Contacter le Responsable de Master pour la lettre d'admission",
+        "content": "Le contenu de cette section sera bientôt disponible..."
       },
-      "enrollment": {
-        "title": "Inscription à l'université",
-        "content": "Une fois en France, vous devrez finaliser votre inscription administrative à l'Université du Mans. Apportez tous les documents requis."
+      "contacting_housing": {
+        "title": "Contacter le RI-BAI/Foyer/CROUS pour l'attestation de logement",
+        "content": "Le contenu de cette section sera bientôt disponible..."
       },
-      "campus": {
-        "title": "Vie de campus",
-        "content": "Découvrez les services, les bibliothèques et les associations étudiantes de l'Université du Mans."
+      "documents_translation": {
+        "title": "Documents à acquérir et à traduire",
+        "content": "Le contenu de cette section sera bientôt disponible..."
       },
-      "contacts": {
+      "campus_france": {
+        "title": "Campus France et validation",
+        "content": "Le contenu de cette section sera bientôt disponible..."
+      },
+      "tls_visa": {
+        "title": "Demande de VISA via TLS",
+        "content": "Le contenu de cette section sera bientôt disponible..."
+      },
+      "crous_warranty": {
+        "title": "Paiement de la caution CROUS (depuis votre pays)",
+        "content": "Le contenu de cette section sera bientôt disponible..."
+      },
+      "cvec_payment": {
+        "title": "Paiement de la CVEC (depuis votre pays)",
+        "content": "Le contenu de cette section sera bientôt disponible..."
+      },
+      "plane_ticket": {
+        "title": "Billet d'avion",
+        "content": "Le contenu de cette section sera bientôt disponible..."
+      },
+      "transport_france": {
+        "title": "Transport en France",
+        "content": "Le contenu de cette section sera bientôt disponible..."
+      },
+      "arriving_le_mans": {
+        "title": "Arrivée au Mans pour la première fois",
+        "content": "Le contenu de cette section sera bientôt disponible..."
+      },
+      "inscription_ufr": {
+        "title": "Inscription à l'UFR Sciences et Techniques",
+        "content": "Le contenu de cette section sera bientôt disponible..."
+      },
+      "student_benefits": {
+        "title": "Avantages étudiants",
+        "content": "Le contenu de cette section sera bientôt disponible..."
+      },
+      "important_contacts": {
         "title": "Contacts importants",
-        "content": "Voici une liste de contacts importants pour les étudiants internationaux..."
+        "content": "Le contenu de cette section sera bientôt disponible..."
       }
     }
   }
