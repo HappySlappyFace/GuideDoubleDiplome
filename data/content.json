@@ -143,11 +143,52 @@
         ]
       },
       "campus_france": {
-        "title": "Campus France and validating",
-        "content": "Content for this section is coming soon..."
+        "title": "Campus France Procedure",
+        "content": [
+          "<p>The Campus France (Maison de France) procedure is primarily to validate your admission letter with the university. Here is a detailed walkthrough of the process on their platform.</p>",
+          "<h3 class='mt-6 font-semibold'>Step 1: Create Your Account</h3>",
+          "<p>First, create an account on the Etudes en France platform: <a href='https://pastel.diplomatie.gouv.fr/etudesenfrance/dyn/public/authentification/login.html' target='_blank' class='text-blue-500 hover:underline'>pastel.diplomatie.gouv.fr</a>.</p>",
+          "<p>Once logged in, look at the top right side of the page. You will see your name and your ID (e.g., TNXX-XXXXX). Write this ID down, as you will need it later.</p>",
+          "<img src='data/images/PastelID.jpg' alt='Location of the Pastel Platform ID' class='mt-4 rounded-md shadow-md w-25 border mx-auto'>",
+          "<h3 class='mt-6 font-semibold'>Step 2: Finalize Your Procedure</h3>",
+          "<p>In the main navbar, click on <strong>'Je suis accepté'</strong>.</p>",
+          "<img src='data/images/PastelNavbar.jpg' alt='Je suis accepté button in the navbar' class='mt-4 rounded-md shadow-md w-25 border mx-auto'>",
+          "<p>Then, open the section named <strong>'1 - Je finalise ma procédure'</strong>. You will need to fill out the following subsections.</p>",
+          "<h4 class='mt-4 font-semibold'>1.1 - Je choisis mes projets d'études</h4>",
+          "<p>You need to provide 6 pieces of information here. The 6th item, 'Je joins un justificatif', is where you must upload your <strong>admission letter</strong> (attestation d'inscription) and your <strong>housing letter</strong> (attestation de logement).</p>",
+          "<img src='data/images/Pastel11.jpg' alt='Example of how to fill the projects section' class='mt-4 rounded-md shadow-md w-25 border mx-auto'>",
+          "<h4 class='mt-4 font-semibold'>1.2 - Je saisis mes informations personnelles</h4>",
+          "<p>This section is mostly straightforward. Here are clarifications for specific fields:</p>",
+          "<ul class='list-disc list-inside space-y-2 mt-2'>",
+          "  <li>Under <strong>'Statut particulier'</strong>: Set 'Bourse' to 'Pas de cas particulier' and 'Autre cas' to 'Convention de partenariat'.</li>",
+          "  <li>Under <strong>'Mon Cursus'</strong>, you must add an entry for EVERY YEAR since your baccalauréat, uploading the relevant translated documents for each:</li>",
+          "  <ul class='list-circle list-inside ml-6 space-y-1 mt-1'>",
+          "    <li><strong>Baccalauréat:</strong> Diploma + Transcript (Relevé de note).</li>",
+          "    <li><strong>L1, L2:</strong> Transcript for each year.</li>",
+          "    <li><strong>L3:</strong> Diploma + Transcript.</li>",
+          "  </ul>",
+          "  <li>All documents must be translated into French. A list of approved translators will be in the <a href='#important_contacts' class='text-blue-500 hover:underline'>Important Contacts</a> section.</li>",
+          "  <li><strong>'Mes séjours en France'</strong> and <strong>'Mes tests et examens de français'</strong> can be left empty if not applicable.</li>",
+          "  <li>For <strong>'Mon niveau de français'</strong>, you can simply mention your high school (lycée) experience.</li>",
+          "</ul>",
+          "<h4 class='mt-4 font-semibold'>1.3 - Je vérifie que tout est complet et je confirme mon choix</h4>",
+          "<p>Carefully review all the information you have entered and then submit your application.</p>",
+          "<h3 class='mt-6 font-semibold'>Step 3: University Validation & Payment</h3>",
+          "<p>After submitting, you can go to Maison de France for the first time. You will receive an authentication notification on the platform or by email. Now, you must contact your Master's responsible, provide them with your Pastel ID, and ask them to email Maison de France to confirm your enrollment. Maison de France will provide you with the specific email address to use.</p>",
+          "<p>After this, you can go pay the fee at Maison de France. <strong class='text-red-600'>They do not accept cash</strong>; payment must be made by card (TPE).</p>",
+          "<h3 class='mt-6 font-semibold'>Step 4: The Final Visit & Visa Appointment</h3>",
+          "<p>Once your application is validated, you will be able to download your <strong>'Accord préalable'</strong> from the Pastel platform. This document is your golden ticket—take good care of it!</p>",
+          "<img src='data/images/PREVIEWAccordPrealable.jpg' alt='Accord Prealable document example' class='mt-4 rounded-md shadow-md w-80 border mx-auto'>",
+          "<p>For your final visit, bring the printed 'Accord préalable', all the original documents you uploaded, and your passport to Maison de France. They will stamp your accord.</p>",
+          "<p>Finally, they will ask you to choose an appointment date for your visa procedure with TLS. Once you select a date, you are done with Campus France. Good luck with the next step!</p>"
+        ]
       },
       "tls_visa": {
         "title": "TLS applying for VISA",
+        "content": "Content for this section is coming soon..."
+      },
+      "plane_ticket": {
+        "title": "Plane Ticket",
         "content": "Content for this section is coming soon..."
       },
       "crous_warranty": {
@@ -158,10 +199,7 @@
         "title": "Paying CVEC (from home)",
         "content": "Content for this section is coming soon..."
       },
-      "plane_ticket": {
-        "title": "Plane Ticket",
-        "content": "Content for this section is coming soon..."
-      },
+
       "transport_france": {
         "title": "Transport in France",
         "content": "Content for this section is coming soon..."
@@ -326,11 +364,52 @@
         ]
       },
       "campus_france": {
-        "title": "Campus France et validation",
-        "content": "Le contenu de cette section sera bientôt disponible..."
+        "title": "Procédure Campus France",
+        "content": [
+          "<p>La procédure Campus France (Maison de France) vise principalement à faire valider votre lettre d'admission par l'université. Voici un guide détaillé du processus sur leur plateforme.</p>",
+          "<h3 class='mt-6 font-semibold'>Étape 1 : Créez votre compte</h3>",
+          "<p>Tout d'abord, créez un compte sur la plateforme Études en France : <a href='https://pastel.diplomatie.gouv.fr/etudesenfrance/dyn/public/authentification/login.html' target='_blank' class='text-blue-500 hover:underline'>pastel.diplomatie.gouv.fr</a>.</p>",
+          "<p>Une fois connecté, regardez en haut à droite de la page. Vous y verrez votre nom et votre identifiant (ex: TNXX-XXXXX). Notez cet identifiant, vous en aurez besoin plus tard.</p>",
+          "<img src='data/images/PastelID.jpg' alt='Emplacement de l'identifiant sur la plateforme Pastel' class='mt-4 rounded-md shadow-md w-25 border mx-auto'>",
+          "<h3 class='mt-6 font-semibold'>Étape 2 : Finalisez votre procédure</h3>",
+          "<p>Dans la barre de navigation principale, cliquez sur <strong>'Je suis accepté'</strong>.</p>",
+          "<img src='data/images/PastelNavbar.jpg' alt='Bouton Je suis accepté dans la barre de navigation' class='mt-4 rounded-md shadow-md w-25 border mx-auto'>",
+          "<p>Ensuite, ouvrez la section intitulée <strong>'1 - Je finalise ma procédure'</strong>. Vous devrez remplir les sous-sections suivantes.</p>",
+          "<h4 class='mt-4 font-semibold'>1.1 - Je choisis mes projets d'études</h4>",
+          "<p>Vous devez fournir 6 informations ici. Le 6ème point, 'Je joins un justificatif', est l'endroit où vous devez télécharger votre <strong>lettre d'admission</strong> (attestation d'inscription) et votre <strong>attestation de logement</strong>.</p>",
+          "<img src='data/images/Pastel11.jpg' alt='Exemple de remplissage de la section projets' class='mt-4 rounded-md shadow-md w-25 border mx-auto'>",
+          "<h4 class='mt-4 font-semibold'>1.2 - Je saisis mes informations personnelles</h4>",
+          "<p>Cette section est assez simple. Voici des clarifications pour certains champs spécifiques :</p>",
+          "<ul class='list-disc list-inside space-y-2 mt-2'>",
+          "  <li>Sous <strong>'Statut particulier'</strong> : Mettez 'Bourse' à 'Pas de cas particulier' et 'Autre cas' à 'Convention de partenariat'.</li>",
+          "  <li>Sous <strong>'Mon Cursus'</strong>, vous devez ajouter une entrée pour CHAQUE ANNÉE depuis le baccalauréat, en téléchargeant les documents traduits pertinents pour chacune :</li>",
+          "  <ul class='list-circle list-inside ml-6 space-y-1 mt-1'>",
+          "    <li><strong>Baccalauréat :</strong> Diplôme + Relevé de notes.</li>",
+          "    <li><strong>L1, L2 :</strong> Relevé de notes pour chaque année.</li>",
+          "    <li><strong>L3 :</strong> Diplôme + Relevé de notes.</li>",
+          "  </ul>",
+          "  <li>Tous les documents doivent être traduits en français. Une liste des traducteurs agréés se trouvera dans la section <a href='#important_contacts' class='text-blue-500 hover:underline'>Contacts importants</a>.</li>",
+          "  <li><strong>'Mes séjours en France'</strong> et <strong>'Mes tests et examens de français'</strong> peuvent être laissés vides si non applicable.</li>",
+          "  <li>Pour <strong>'Mon niveau de français'</strong>, vous pouvez simplement mentionner votre parcours au lycée.</li>",
+          "</ul>",
+          "<h4 class='mt-4 font-semibold'>1.3 - Je vérifie que tout est complet et je confirme mon choix</h4>",
+          "<p>Vérifiez attentivement toutes les informations que vous avez saisies, puis soumettez votre dossier.</p>",
+          "<h3 class='mt-6 font-semibold'>Étape 3 : Validation par l'université et paiement</h3>",
+          "<p>Après la soumission, vous pouvez vous rendre à la Maison de France pour la première fois. Vous recevrez une notification d'authentification sur la plateforme ou par e-mail. Vous devez alors contacter le responsable de votre Master, lui fournir votre identifiant Pastel et lui demander d'envoyer un e-mail à la Maison de France pour confirmer votre inscription. La Maison de France vous fournira l'adresse e-mail spécifique à utiliser.</p>",
+          "<p>Ensuite, vous pourrez aller payer les frais à la Maison de France. <strong class='text-red-600'>Ils n'acceptent pas les espèces</strong> ; le paiement doit être effectué par carte (TPE).</p>",
+          "<h3 class='mt-6 font-semibold'>Étape 4 : La visite finale et le rendez-vous Visa</h3>",
+          "<p>Une fois votre dossier validé, vous pourrez télécharger votre <strong>'Accord préalable'</strong> depuis la plateforme Pastel. Ce document est votre ticket d'or — prenez-en bien soin !</p>",
+          "<img src='data/images/PREVIEWAccordPrealable.jpg' alt='Exemple du document Accord Préalable' class='mt-4 rounded-md shadow-md w-80 border mx-auto'>",
+          "<p>Pour votre visite finale, apportez l' 'Accord préalable' imprimé, tous les documents originaux que vous avez téléchargés et votre passeport à la Maison de France. Ils apposeront un cachet sur votre accord.</p>",
+          "<p>Enfin, ils vous demanderont de choisir une date de rendez-vous pour votre procédure de visa avec TLS. Une fois la date choisie, vous en avez terminé avec Campus France. Bonne chance pour la prochaine étape !</p>"
+        ]
       },
       "tls_visa": {
         "title": "Demande de VISA via TLS",
+        "content": "Le contenu de cette section sera bientôt disponible..."
+      },
+      "plane_ticket": {
+        "title": "Billet d'avion",
         "content": "Le contenu de cette section sera bientôt disponible..."
       },
       "crous_warranty": {
@@ -341,10 +420,7 @@
         "title": "Paiement de la CVEC (depuis votre pays)",
         "content": "Le contenu de cette section sera bientôt disponible..."
       },
-      "plane_ticket": {
-        "title": "Billet d'avion",
-        "content": "Le contenu de cette section sera bientôt disponible..."
-      },
+
       "transport_france": {
         "title": "Transport en France",
         "content": "Le contenu de cette section sera bientôt disponible..."
