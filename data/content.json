@@ -37,15 +37,62 @@
       },
       "succeeding_dd": {
         "title": "Succeeding in Double Diplome",
-        "content": "Content for this section is coming soon..."
+        "content": [
+          "<h2>Congratulations on your Double Diplôme! 🎉</h2>",
+          "<hr class='my-6'>",
+          "<p>You've successfully completed a challenging and rewarding journey. This achievement is a testament to your hard work and dedication. Now, the next exciting chapter begins: preparing for your journey to France. This guide will walk you through the necessary administrative steps to ensure a smooth transition.</p>"
+        ]
       },
       "contacting_master_responsible": {
         "title": "Contacting Master Responsible for admission letter",
-        "content": "Content for this section is coming soon..."
+        "content": [
+          "<p>One of the first and most crucial steps is to contact the head of your Master's program to request your official admission letter ('lettre d'attestation d'inscription'). This document is essential for your Campus France application.</p>",
+          "<blockquote class='border-l-4 border-red-400 bg-red-50 p-4 my-4'>",
+          "  <strong>Important:</strong> Start this process as early as possible! University administration often closes by the end of July, and responses can be slow. Early communication is key to avoiding delays.",
+          "</blockquote>",
+          "<p>Your email should be polite, enthusiastic, and clear. Here is a template you can adapt:</p>",
+          "<blockquote class='border-l-4 border-gray-400 pl-4 italic mt-4 bg-gray-50 p-4'>",
+          "  <strong>Objet :</strong> Candidature au Master - Étudiant du Double Diplôme<br><br>",
+          "  Madame/Monsieur [Nom du/de la Professeur(e)],<br><br>",
+          "  Suite à ma réussite au programme de double diplôme entre la FSEGS et Le Mans Université, je vous écris pour vous faire part de mon grand enthousiasme à l'idée de m'inscrire au Master [Votre programme de Master, ex: Informatique, parcours Intelligence Artificielle].<br><br>",
+          "  Pourriez-vous s'il vous plaît m'indiquer la procédure à suivre et les documents à fournir pour les étudiants issus de notre parcours afin de finaliser mon inscription et d'obtenir l'attestation nécessaire ?<br><br>",
+          "  Je vous remercie vivement pour votre temps et votre aide.<br><br>",
+          "  Bien cordialement,<br>",
+          "  [Votre Nom]",
+          "</blockquote>",
+          "<h3 class='mt-6 font-semibold'>Example of the Admission Letter you will receive:</h3>",
+          "<img src='data/images/PREVIEWInscription.jpg' alt='Example of the Master Admission Letter' class='mt-4 rounded-md shadow-md w-50 border'>"
+        ]
       },
       "contacting_housing": {
         "title": "Contacting RI-BAI/Foyer/CROUS for logement letter",
-        "content": "Content for this section is coming soon..."
+        "content": [
+          "<p>Securing your accommodation is a critical step, and the official housing letter ('attestation de logement') is a mandatory document for your visa application. You will need to contact the International Welcome Office (Bureau d'Accueil International - BAI) to start this process.</p>",
+          "<p>You can reach them at the following email address: <a href='mailto:ri-bai@univ-lemans.fr' class='text-blue-500 hover:underline'>ri-bai@univ-lemans.fr</a>.</p>",
+          "<blockquote class='border-l-4 border-red-400 bg-red-50 p-4 my-4'>",
+          "  <strong>Important Deadline:</strong> The deadline for submitting the housing application form is typically in mid-July. Contact them early to ensure you don't miss it!",
+          "</blockquote>",
+          "<p>Here is an email template you can adapt to request information about the housing application process:</p>",
+          "<blockquote class='border-l-4 border-gray-400 pl-4 italic mt-4 bg-gray-50 p-4'>",
+          "  <strong>Objet :</strong> Demande d'information pour logement en résidence universitaire - Étudiant Double Diplôme<br><br>",
+          "  Madame, Monsieur,<br><br>",
+          "  Je vous contacte aujourd'hui concernant ma situation. Récemment admis en première année de Master Informatique à Le Mans Université pour la rentrée de septembre 2025, suite à ma réussite au programme de double diplôme avec la FSEGS de Sfax, je suis à la recherche d'un logement.<br><br>",
+          "  Je suis très intéressé par les options de logement sur le campus et souhaiterais connaître les démarches à suivre pour faire une demande de chambre en résidence universitaire (CROUS).<br><br>",
+          "  Pourriez-vous m'indiquer la procédure, les documents nécessaires et les éventuelles dates limites à respecter ?<br><br>",
+          "  Je vous remercie par avance pour votre aide précieuse.<br><br>",
+          "  Bien cordialement,<br>",
+          "  [Votre Nom]",
+          "</blockquote>",
+          "<h3>What to Expect Next</h3>",
+          "<ol class='list-decimal list-inside space-y-4 mt-4'>",
+          "  <li>RI-BAI will reply with more information and a form to fill out.</li>",
+          "  <li>After submitting the form, you will receive a confirmation email. You typically have 48 hours to cancel your reservation if needed.</li>",
+          "  <li>Your room will then be assigned.</li>",
+          "  <li>A day or two later, you will receive the official 'Attestation Hebergement' from CROUS via email.</li>",
+          "</ol>",
+          "<h3 class='mt-6 font-semibold'>Example of the Housing Attestation you will receive:</h3>",
+          "<img src='data/images/PREVIEWLogement.jpg' alt='Example of the Housing Attestation (Attestation Hebergement)' class='mt-4 rounded-md shadow-md w-50 border'>"
+        ]
       },
       "documents_translation": {
         "title": "Documents to acquire and Translate",
@@ -173,15 +220,62 @@
       },
       "succeeding_dd": {
         "title": "Réussir le Double Diplôme",
-        "content": "Le contenu de cette section sera bientôt disponible..."
+        "content": [
+          "<h2>Félicitations pour votre Double Diplôme ! 🎉</h2>",
+          "<hr class='my-6'>",
+          "<p>Vous avez accompli un parcours exigeant et gratifiant. Cette réussite témoigne de votre travail acharné et de votre dévouement. Maintenant, un nouveau chapitre passionnant commence : la préparation de votre voyage en France. Ce guide vous accompagnera à travers les démarches administratives nécessaires pour assurer une transition en douceur.</p>"
+        ]
       },
       "contacting_master_responsible": {
         "title": "Contacter le Responsable de Master pour la lettre d'admission",
-        "content": "Le contenu de cette section sera bientôt disponible..."
+        "content": [
+          "<p>L'une des premières étapes les plus cruciales est de contacter le responsable de votre programme de Master pour demander votre lettre d'attestation d'inscription. Ce document est essentiel pour votre dossier Campus France.</p>",
+          "<blockquote class='border-l-4 border-red-400 bg-red-50 p-4 my-4'>",
+          "  <strong>Important :</strong> Commencez cette démarche le plus tôt possible ! L'administration universitaire ferme souvent fin juillet et les réponses peuvent parfois être lentes. Une communication précoce est essentielle pour éviter les retards.",
+          "</blockquote>",
+          "<p>Votre e-mail doit être poli, enthousiaste et clair. Voici un modèle que vous pouvez adapter :</p>",
+          "<blockquote class='border-l-4 border-gray-400 pl-4 italic mt-4 bg-gray-50 p-4'>",
+          "  <strong>Objet :</strong> Candidature au Master - Étudiant du Double Diplôme<br><br>",
+          "  Madame/Monsieur [Nom du/de la Professeur(e)],<br><br>",
+          "  Suite à ma réussite au programme de double diplôme entre la FSEGS et Le Mans Université, je vous écris pour vous faire part de mon grand enthousiasme à l'idée de m'inscrire au Master [Votre programme de Master, ex: Informatique, parcours Intelligence Artificielle].<br><br>",
+          "  Pourriez-vous s'il vous plaît m'indiquer la procédure à suivre et les documents à fournir pour les étudiants issus de notre parcours afin de finaliser mon inscription et d'obtenir l'attestation nécessaire ?<br><br>",
+          "  Je vous remercie vivement pour votre temps et votre aide.<br><br>",
+          "  Bien cordialement,<br>",
+          "  [Votre Nom]",
+          "</blockquote>",
+          "<h3 class='mt-6 font-semibold'>Exemple de la lettre d'admission que vous recevrez :</h3>",
+          "<img src='data/images/PREVIEWInscription.jpg' alt='Exemple de la lettre d'admission au Master' class='mt-4 rounded-md shadow-md w-50 border'>"
+        ]
       },
       "contacting_housing": {
         "title": "Contacter le RI-BAI/Foyer/CROUS pour l'attestation de logement",
-        "content": "Le contenu de cette section sera bientôt disponible..."
+        "content": [
+          "<p>Obtenir votre logement est une étape essentielle, et l'attestation de logement est un document obligatoire pour votre demande de visa. Vous devez contacter le Bureau d'Accueil International (BAI) pour démarrer cette procédure.</p>",
+          "<p>Vous pouvez les contacter à l'adresse e-mail suivante : <a href='mailto:ri-bai@univ-lemans.fr' class='text-blue-500 hover:underline'>ri-bai@univ-lemans.fr</a>.</p>",
+          "<blockquote class='border-l-4 border-red-400 bg-red-50 p-4 my-4'>",
+          "  <strong>Date limite importante :</strong> La date limite pour soumettre le formulaire de demande de logement est généralement à la mi-juillet. Contactez-les tôt pour ne pas la manquer !",
+          "</blockquote>",
+          "<p>Voici un modèle d'e-mail que vous pouvez adapter pour demander des informations sur le processus de demande de logement :</p>",
+          "<blockquote class='border-l-4 border-gray-400 pl-4 italic mt-4 bg-gray-50 p-4'>",
+          "  <strong>Objet :</strong> Demande d'information pour logement en résidence universitaire - Étudiant Double Diplôme<br><br>",
+          "  Madame, Monsieur,<br><br>",
+          "  Je vous contacte aujourd'hui concernant ma situation. Récemment admis en première année de Master Informatique à Le Mans Université pour la rentrée de septembre 2025, suite à ma réussite au programme de double diplôme avec la FSEGS de Sfax, je suis à la recherche d'un logement.<br><br>",
+          "  Je suis très intéressé par les options de logement sur le campus et souhaiterais connaître les démarches à suivre pour faire une demande de chambre en résidence universitaire (CROUS).<br><br>",
+          "  Pourriez-vous m'indiquer la procédure, les documents nécessaires et les éventuelles dates limites à respecter ?<br><br>",
+          "  Je vous remercie par avance pour votre aide précieuse.<br><br>",
+          "  Bien cordialement,<br>",
+          "  [Votre Nom]",
+          "</blockquote>",
+          "<h3>À quoi s'attendre ensuite</h3>",
+          "<ol class='list-decimal list-inside space-y-4 mt-4'>",
+          "  <li>Le RI-BAI vous répondra avec plus d'informations et un formulaire à remplir.</li>",
+          "  <li>Après avoir soumis le formulaire, vous recevrez un e-mail de confirmation. Vous avez généralement 48 heures pour annuler votre réservation si nécessaire.</li>",
+          "  <li>Votre chambre vous sera alors attribuée.</li>",
+          "  <li>Un jour ou deux plus tard, vous recevrez l'attestation d'hébergement officielle du CROUS par e-mail.</li>",
+          "</ol>",
+          "<h3 class='mt-6 font-semibold'>Exemple de l'attestation d'hébergement que vous recevrez :</h3>",
+          "<img src='data/images/PREVIEWLogement.jpg' alt='Exemple de l'attestation d'hébergement' class='mt-4 rounded-md shadow-md w-50 border'>"
+        ]
       },
       "documents_translation": {
         "title": "Documents à acquérir et à traduire",
