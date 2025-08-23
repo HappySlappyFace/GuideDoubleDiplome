@@ -215,8 +215,32 @@
         ]
       },
       "plane_ticket": {
-        "title": "Plane Ticket",
-        "content": "Content for this section is coming soon..."
+        "title": "Booking Your Plane Ticket",
+        "content": [
+          "<p>Booking your flight is a major step. Here’s a breakdown of the primary airlines and key factors to consider to make the best choice for your travel to France.</p>",
+          "<hr class='my-6'>",
+          "<h3 class='mt-6 font-semibold'>Airline Options</h3>",
+          "<div class='space-y-4 mt-4'>",
+          "  <div>",
+          "    <h4 class='font-bold'>1. Transavia</h4>",
+          "    <p>At the time of writing, Transavia is arguably the best option, with one major advantage: it flies directly from Sfax Airport. However, it has a drawback: flights may not include extra luggage. If you can find a Transavia flight that includes a luggage allowance, it's the perfect choice.</p>",
+          "  </div>",
+          "  <div>",
+          "    <h4 class='font-bold'>2. Nouvelair & Tunisair</h4>",
+          "    <p>These airlines are not available from Sfax, flying only from Monastir and Tunis. Their main advantages are that they typically include luggage and offer more frequent flights at cheaper prices. However, be aware that their flights are often delayed by hours and, in some extreme cases, cancelled.</p>",
+          "  </div>",
+          "</div>",
+          "<hr class='my-6'>",
+          "<h3 class='mt-6 font-semibold'>Pricing and Timing</h3>",
+          "<p>You must plan your ticket purchase carefully. As shown in the chart below, flight prices are extremely high before the 1st of September and tend to drop afterwards. Plan your administrative steps accordingly to book your flight at the best time.</p>",
+          "<img src='data/images/GoogleFlightsPriceChart.jpg' alt='Google Flights Price Chart Example' class='mt-4 rounded-md shadow-md w-3/5 border mx-auto'>",
+          "<hr class='my-6'>",
+          "<h3 class='mt-6 font-semibold'>Booking Tools & Final Advice</h3>",
+          "<p>You can use <a href='https://www.google.com/flights' target='_blank' class='text-blue-500 hover:underline'>Google Flights</a> to get price estimates and compare options across airlines. However, if you decide to fly with Tunisair, it is often better to book directly through their official website.</p>",
+          "<blockquote class='border-l-4 border-yellow-400 bg-yellow-50 p-4 mt-4'>",
+          "  <strong>Important:</strong> If you know you will be arriving late, you must email the Master's responsible to inform them of your situation as soon as possible.",
+          "</blockquote>"
+        ]
       },
       "crous_warranty": {
         "title": "Paying CROUS warrenty (from home)",
@@ -463,8 +487,32 @@
         ]
       },
       "plane_ticket": {
-        "title": "Billet d'avion",
-        "content": "Le contenu de cette section sera bientôt disponible..."
+        "title": "Réservation du Billet d'Avion",
+        "content": [
+          "<p>La réservation de votre vol est une étape majeure. Voici une analyse des principales compagnies aériennes et des facteurs clés à considérer pour faire le meilleur choix pour votre voyage en France.</p>",
+          "<hr class='my-6'>",
+          "<h3 class='mt-6 font-semibold'>Options de Compagnies Aériennes</h3>",
+          "<div class='space-y-4 mt-4'>",
+          "  <div>",
+          "    <h4 class='font-bold'>1. Transavia</h4>",
+          "    <p>Au moment de la rédaction de ce guide, Transavia est sans doute la meilleure option, avec un avantage majeur : elle opère des vols directs depuis l'aéroport de Sfax. Cependant, elle présente un inconvénient : les vols peuvent ne pas inclure de bagages supplémentaires. Si vous trouvez un vol Transavia incluant une franchise de bagages, c'est le choix parfait.</p>",
+          "  </div>",
+          "  <div>",
+          "    <h4 class='font-bold'>2. Nouvelair & Tunisair</h4>",
+          "    <p>Ces compagnies ne sont pas disponibles depuis Sfax, opérant uniquement depuis Monastir et Tunis. Leurs principaux avantages sont qu'elles incluent généralement les bagages et proposent des vols plus fréquents à des prix moins élevés. Cependant, sachez que leurs vols sont souvent retardés de plusieurs heures et, dans des cas extrêmes, annulés.</p>",
+          "  </div>",
+          "</div>",
+          "<hr class='my-6'>",
+          "<h3 class='mt-6 font-semibold'>Prix et Calendrier</h3>",
+          "<p>Vous devez planifier l'achat de votre billet avec soin. Comme le montre le graphique ci-dessous, les prix des vols sont extrêmement élevés avant le 1er septembre et ont tendance à baisser par la suite. Planifiez vos démarches administratives en conséquence pour réserver votre vol au meilleur moment.</p>",
+          "<img src='data/images/GoogleFlightsPriceChart.jpg' alt='Exemple de graphique de prix Google Flights' class='mt-4 rounded-md shadow-md w-3/5 border mx-auto'>",
+          "<hr class='my-6'>",
+          "<h3 class='mt-6 font-semibold'>Outils de Réservation & Derniers Conseils</h3>",
+          "<p>Vous pouvez utiliser <a href='https://www.google.com/flights' target='_blank' class='text-blue-500 hover:underline'>Google Flights</a> pour obtenir des estimations de prix et comparer les options entre les compagnies. Cependant, si vous décidez de voyager avec Tunisair, il est souvent préférable de réserver directement sur leur site officiel.</p>",
+          "<blockquote class='border-l-4 border-yellow-400 bg-yellow-50 p-4 mt-4'>",
+          "  <strong>Important :</strong> Si vous savez que vous arriverez en retard, vous devez impérativement envoyer un e-mail au responsable du Master pour l'informer de votre situation dès que possible.",
+          "</blockquote>"
+        ]
       },
       "crous_warranty": {
         "title": "Paiement de la caution CROUS (depuis votre pays)",
